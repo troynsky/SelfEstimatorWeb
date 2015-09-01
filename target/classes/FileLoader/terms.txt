@@ -1,0 +1,8 @@
+java
+microsoft
+oracle
+sun
+javascript
+sql
+linux
+android
