@@ -1,0 +1,88 @@
+14:03:58.180 [main] DEBUG SelfEstimator - Program start
+14:03:58.435 [main] DEBUG warehouse.FileLoader - Start loading all terms from file
+14:03:58.436 [main] DEBUG warehouse.FileLoader - Loaded all Terms
+14:03:58.436 [main] DEBUG warehouse.FileLoader - Start loading all tags from file
+14:03:58.436 [main] DEBUG warehouse.FileLoader - Loaded all tags
+14:03:58.436 [main] DEBUG warehouse.FileLoader - Start loading all terms with tags from file
+14:03:58.436 [main] DEBUG warehouse.FileLoader - Loaded all terms with tags
+14:03:58.436 [main] DEBUG warehouse.FileLoader - Start loading all user's skills from file
+14:03:58.437 [main] DEBUG warehouse.FileLoader - Loaded all user's skills
+14:06:27.570 [main] DEBUG SelfEstimator - Program start
+14:06:27.915 [main] DEBUG warehouse.FileLoader - Start loading all terms from file
+14:06:27.915 [main] DEBUG warehouse.FileLoader - Loaded all Terms
+14:06:27.917 [main] DEBUG warehouse.FileLoader - Start loading all tags from file
+14:06:27.922 [main] DEBUG warehouse.FileLoader - Loaded all tags
+14:06:27.925 [main] DEBUG warehouse.FileLoader - Start loading all terms with tags from file
+14:06:27.925 [main] DEBUG warehouse.FileLoader - Loaded all terms with tags
+14:06:27.925 [main] DEBUG warehouse.FileLoader - Start loading all user's skills from file
+14:06:27.926 [main] DEBUG warehouse.FileLoader - Loaded all user's skills
+14:06:41.671 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+14:06:42.289 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+14:06:49.787 [main] DEBUG warehouse.DataBaseLoader - start to get all terms from DB
+14:06:49.787 [main] DEBUG warehouse.DataBaseLoader - all terms have been gotten
+16:25:59.622 [main] DEBUG SelfEstimator - Program start
+16:29:40.521 [main] DEBUG SelfEstimator - Program start
+16:29:50.490 [main] DEBUG SelfEstimator - Program start
+16:44:01.409 [main] DEBUG SelfEstimator - Program start
+16:44:12.292 [main] DEBUG SelfEstimator - Program start
+16:48:42.438 [main] DEBUG SelfEstimator - Program start
+16:49:04.912 [main] DEBUG SelfEstimator - Program start
+16:52:06.284 [main] DEBUG SelfEstimator - Program start
+16:53:14.594 [main] DEBUG SelfEstimator - Program start
+16:53:44.986 [main] DEBUG SelfEstimator - Program start
+16:55:05.546 [main] DEBUG SelfEstimator - Program start
+18:13:36.199 [main] DEBUG SelfEstimator - Program start
+18:15:29.449 [main] DEBUG SelfEstimator - Program start
+18:17:14.163 [main] DEBUG SelfEstimator - Program start
+22:03:42.473 [main] DEBUG SelfEstimator - Program start
+22:03:54.473 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+22:03:55.189 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+22:03:57.528 [main] DEBUG warehouse.DataBaseLoader - start to get all terms from DB
+22:03:57.529 [main] DEBUG warehouse.DataBaseLoader - all terms have been gotten
+14:42:57.483 [main] DEBUG SelfEstimator - Program start
+14:43:02.444 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+14:43:03.110 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+14:43:17.719 [main] DEBUG warehouse.DataBaseLoader - start to get all terms from DB
+14:43:17.720 [main] DEBUG warehouse.DataBaseLoader - all terms have been gotten
+15:48:26.436 [main] DEBUG SelfEstimator - Program start
+15:48:29.558 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+15:48:30.230 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+15:48:35.976 [main] DEBUG warehouse.DataBaseLoader - start to get all terms from DB
+15:48:35.977 [main] DEBUG warehouse.DataBaseLoader - all terms have been gotten
+12:04:22.139 [main] DEBUG SelfEstimator - Program start
+12:05:36.281 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+13:59:17.266 [main] DEBUG SelfEstimator - Program start
+14:01:09.905 [main] DEBUG SelfEstimator - Program start
+14:03:23.881 [main] DEBUG SelfEstimator - Program start
+14:06:09.810 [main] DEBUG SelfEstimator - Program start
+14:06:15.339 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+14:06:16.102 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+14:06:17.606 [main] DEBUG warehouse.DataBaseLoader - start to get all terms from DB
+14:06:17.606 [main] DEBUG warehouse.DataBaseLoader - all terms have been gotten
+15:13:50.957 [main] DEBUG SelfEstimator - Program start
+15:14:27.296 [main] DEBUG SelfEstimator - Program start
+15:14:43.266 [main] DEBUG SelfEstimator - Program start
+15:15:10.448 [main] DEBUG SelfEstimator - Program start
+15:15:20.057 [main] DEBUG SelfEstimator - Program start
+15:16:03.653 [main] DEBUG SelfEstimator - Program start
+15:22:47.293 [main] DEBUG SelfEstimator - Program start
+15:22:50.197 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+15:22:50.936 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+14:46:40.418 [main] DEBUG SelfEstimator - Program start
+14:47:04.940 [main] DEBUG SelfEstimator - Program start
+08:55:39.128 [main] DEBUG SelfEstimator - Program start
+20:06:33.485 [main] DEBUG SelfEstimator - Program start
+20:06:36.364 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+20:06:37.085 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+20:06:39.059 [main] DEBUG warehouse.DataBaseLoader - start to get all terms from DB
+20:06:39.059 [main] DEBUG warehouse.DataBaseLoader - all terms have been gotten
+20:26:18.405 [main] DEBUG SelfEstimator - Program start
+20:26:33.676 [main] DEBUG SelfEstimator - Program start
+20:27:44.662 [main] DEBUG SelfEstimator - Program start
+20:27:49.499 [main] DEBUG warehouse.DataBaseLoader - start to get all terms from DB
+20:27:50.119 [main] DEBUG warehouse.DataBaseLoader - all terms have been gotten
+20:27:57.782 [main] DEBUG warehouse.DataBaseLoader - start to get all tags from DB
+20:27:57.783 [main] DEBUG warehouse.DataBaseLoader - all tags have been gotten
+20:29:14.780 [main] DEBUG SelfEstimator - Program start
+20:30:47.493 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+20:31:28.736 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists

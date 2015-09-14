@@ -11,6 +11,7 @@ public class Beans {
     private static ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
     public static Object getBean(String id) {
-       return context.getBean(id);
+        return context.getBean(id);
     }
+
 }

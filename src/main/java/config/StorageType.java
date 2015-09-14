@@ -1,9 +1,7 @@
 package config;
 
 public enum StorageType {
-    FileSystem("FileSystem"),
-    DataBase("DataBase"),
-    MockupLoader("MockupLoader");
+    DataBase("DataBase");
 
     private String storageType;
 

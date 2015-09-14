@@ -4,14 +4,17 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>main</title>
+    <title>home</title>
 </head>
 <body>
-<h1 align="center" style="color: RED">Welcome to SelfEstimator</h1>
+<h1 align="center" style="color: RED">Start to estimate yourself:</h1>
+
 <%
-    Config configuration = new Config("alex",StorageType.DataBase);
+    Config configuration = (Config) Beans.getBean("config");
+    configuration.setUserName(request.getParameter("userName"));
     String result = configuration.setJson(configuration);
 %>
+
 <table>
     <tr>
         <td>

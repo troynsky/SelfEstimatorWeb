@@ -12,8 +12,7 @@ public class SelfEstimator {
     public static void main(String[] args) throws Exception {
         logger.debug("Program start");
 
-//        IConfig config = (IConfig) Beans.getBean("configFileLoader");
-        IConfig config = (IConfig) Beans.getBean("configDataBaseLoader");
+        IConfig config = (IConfig) Beans.getBean("config");
 
         IRunApplication ui = new ConsoleUI();
         ui.run(config);

@@ -1,11 +1,8 @@
 package core;
 
-import config.Beans;
 import config.IConfigLoader;
 import warehouse.DataBaseLoader;
-import warehouse.FileLoader;
 import warehouse.ILoadData;
-import warehouse.MockupLoader;
 
 import java.util.Collections;
 import java.util.List;
@@ -18,7 +15,7 @@ public class StockKeeper {
     public StockKeeper(IConfigLoader loaderConfig) throws Exception {
         this.loaderConfig = loaderConfig;
         loader = getLoader();
-        loader.init(loaderConfig);
+//        loader.init(loaderConfig);
     }
 
     public void addTerm(String name) throws Exception {
@@ -56,16 +53,8 @@ public class StockKeeper {
     public ILoadData getLoader() {
         if (loader != null)
             return loader;
-        switch (loaderConfig.getStorageType()) {
-            case FileSystem:
-                return (FileLoader) Beans.getBean("FileLoader");
-            case DataBase:
-                return (DataBaseLoader) Beans.getBean("DataBaseLoader");
-            case MockupLoader:
-                return new MockupLoader();
-            default:
-                return null;
-        }
+        else
+            return new DataBaseLoader(loaderConfig);
     }
 
     public void saveAll() throws Exception {
