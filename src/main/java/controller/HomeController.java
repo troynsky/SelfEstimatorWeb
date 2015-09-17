@@ -10,18 +10,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @RequestMapping(value = "/")
-    public String name() {
-        return "WEB-INF/jsp/name.jsp";
-    }
-
-    @RequestMapping(value = "/terms")
-    public String test() {
-        return "WEB-INF/jsp/terms.jsp";
-    }
+    public String name() { return "name"; }
 
     @RequestMapping(value = "/home")
-    public String home() {
-        return "WEB-INF/jsp/home.jsp";
+    public String home() {return "home"; }
+
+    @RequestMapping(value = "/terms")
+    public String term() {
+        return "terms";
     }
+
+    @RequestMapping(value = "/tags")
+    public String tag() { return "tags"; }
+
+    @RequestMapping(value = "/userskills")
+    public String userSkills() { return "userskills"; }
+
+    @RequestMapping(value = "/dependencies")
+    public String dependencies() { return "dependencies"; }
 
 }

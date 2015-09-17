@@ -86,3 +86,10 @@
 20:29:14.780 [main] DEBUG SelfEstimator - Program start
 20:30:47.493 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
 20:31:28.736 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+14:13:32.517 [main] DEBUG SelfEstimator - Program start
+14:13:33.559 [main] DEBUG SelfEstimator - Program start
+14:13:40.397 [main] DEBUG warehouse.DataBaseLoader - start to save new user: alex
+14:13:41.057 [main] DEBUG warehouse.DataBaseLoader - this user: alex already exists
+14:13:45.424 [main] DEBUG warehouse.DataBaseLoader - start to get dependenceTermAndTag from DB
+14:13:45.424 [main] DEBUG warehouse.DataBaseLoader - dependencies have been gotten
+15:11:38.857 [main] DEBUG SelfEstimator - Program start

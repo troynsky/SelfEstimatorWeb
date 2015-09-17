@@ -18,9 +18,9 @@
 <h2>
     There are
 </h2>
-<c:forEach var="data" items="${list}">
+<c:forEach var="tag" items="${list}">
     <tr>
-        <td> ${data.name} </td>
+        <td> ${tag.name} </td>
     </tr>
 </c:forEach>
 </body>

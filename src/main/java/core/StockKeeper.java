@@ -4,10 +4,11 @@ import config.IConfigLoader;
 import warehouse.DataBaseLoader;
 import warehouse.ILoadData;
 
+import java.io.Serializable;
 import java.util.Collections;
 import java.util.List;
 
-public class StockKeeper {
+public class StockKeeper implements Serializable {
 
     IConfigLoader loaderConfig;
     ILoadData loader;
@@ -15,7 +16,7 @@ public class StockKeeper {
     public StockKeeper(IConfigLoader loaderConfig) throws Exception {
         this.loaderConfig = loaderConfig;
         loader = getLoader();
-//        loader.init(loaderConfig);
+        loader.init(loaderConfig);
     }
 
     public void addTerm(String name) throws Exception {
